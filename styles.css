@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+#header {
+    background-color: #0a6bdc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#header h1 {
+    margin-bottom: 5px;
+}
+
+#header p {
+    font-style: italic;
+}
+
+#main-content {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Headings */
+h2, h3 {
+    font-weight: bold;
+}
+
+.important {
+    color: red;
+    font-weight: bold;
+}
+
+#quiz-section {
+    background-color: #e9f6ff;
+    border: 1px solid #b5d8f2;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Quiz image */
+#quiz-section img {
+    width: 100px;
+    border: 2px solid purple;
+}
+
+/* Quiz form */
+#quiz-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+#quiz-section input[type="text"] {
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+#species-table {
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th {
+    background-color: #bdbdbd;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#footer {
+    background-color: #d9d9d9;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
